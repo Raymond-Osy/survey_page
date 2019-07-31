@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>My Survey Page | Welcome</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="Survey form for friends">
+      <meta name="keywords" content="Survey, form, friends">
+      <meta name="author" content="Abigail Nonyelim">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+     <header>
+      <h1 id="title">Hello | &#128578;</hi>
+        <p>Official welcome to my short Survey.</p>
+     </header>
+     <main>
+      <p id="description">I would like to know you, kindly answer the following truthfully.</p>
+      <form id="survey-form">
+       <label for="name" id="name-label"> Full name: </label>
+       <input type="text" Placeholder="e.g Billy" id="name" required><br>
+       <label for="month-year"> Date of Birth &#40;Month &amp; Year&#41;: </label>
+       <input type="month" id="month-year" required>
+       <label for="number" id="number-label">Age: </label>
+       <input type="number" id="number" min="13" max="150" placeholder="xx" required><br>
+       <label for="email" id="email-label">Email: </label>
+       <input type="email" placeholder="e.g billy@example.com" id="email" required><br>
+       <label for="tel">Phone number:</label>
+       <input type="tel" placeholder="e.g 081-2345-6789" id="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]4" maxlength="11" required><br>
+      <div id=addition>
+       <p>The information you gave above are really of no major importance, <br>because..... <br>Well I have not learnt Javascript to send your responses anywhere &#128579;.</p><br>
+       <p>The following questions are about Me and YOU, carry on only if you promise to send a screenshot through this <a href="https://wa.me/2348178727249?text=You%20are%20amazing%20Abbie.%20I'll%20send%20the%20screenshot%20right%20after%20this.%20Kisses!%20LOL">blinking</a> text.
+      </div>
+      <div>
+      <div>
+       <label for="relationship">Which option best descrbes what you are to me?</label>
+      </div>
+      <div>
+       <select id="dropdown">
+        <option disabled value>Select just one</option>
+        <option>Friend</option>
+        <option>Partner</option>
+        <option>Lover</option>
+        <option>Disturbance</option>
+        <option>Tell me when I send screenshot</option>
+       </select>
+      </div>
+      </div>
+      <div>
+      <div>
+       <label for="behaviour">Abigail at her worse is &LeftAngleBracket;a/an&RightAngleBracket;... person?</label>
+      </div>
+      <div>
+       <ul style="list-style: none;">
+        <p>You can select more than one option.</p>
+        <li><label><input type="radio" name="behaviour" value="1">Impatient</label></li>
+        <li><label><input type="radio" name="behaviour" value="2">Cry baby</label></li>
+        <li><label><input type="radio" name="behaviour" value="3">Rude</label></li>
+        <li><label><input type="radio" name="behaviour" value="4">Unapologetic</label></li>
+        <li><label><input type="radio" name="behaviour" value="5">Unappreciative</label></li>
+        <li><label><input type="radio" name="behaviour" value="6">Proud</label></li>
+        <li><label><input type="radio" name="behaviour" value="7">Lazy</label></li>
+       </ul>
+      </div>
+      </div>
+      <div>
+      <div>
+       <label for="qualities">Abigail is ...?</label>
+       <p>Ps: You can select more than one.</p>
+      </div>
+      <div>
+       <ul style="list-style: none;">
+        <li><label><input type="checkbox" value="1">Honest &amp; Loyal</label></li>
+        <li><label><input type="checkbox" value="2">Loving &amp; Kind </label></li>
+        <li><label><input type="checkbox" value="3">Crazy &amp; Ambitious</label></li>
+        <li><label><input type="checkbox" value="4">Secretive &amp; Compassionate</label></li>
+        <li><label><input type="checkbox" value="5">Impatient &amp; Aggressive</label></li>
+       </ul>
+      </div>
+      </div>
+      <div>
+      <div>
+       <label for="comments">What should Abigail do to become a better person?</label>
+      </div>
+      <div>
+       <textarea id="comments" placeholder="Enter comments here..." rows="4" cols="100"></textarea>
+      </div>
+      </div>
+      <div>
+       <button type="submit">The End</button>
+      </div>
+      </form>
+     </main>
+    </body>
+</html>
