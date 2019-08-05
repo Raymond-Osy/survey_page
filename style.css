@@ -1,12 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 body {
-    background-color: #9E1DD6;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f8f5f5;
+    font-family: 'Raleway' Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    width: 500px;
-    padding: 10px 20px;
-    margin: 15px;
-    
+    min-width: 320px;
+    color: white;
+    display: flex;
+    flex-direction: row;
 }
-div{
-    background-color: antiquewhite;
+header {
+    font-size: 12px;
+    font-weight: 200;
+    margin: 30px;
+    color: black;
 }
+#form-box{
+    background-color: rgb(124, 139, 158);
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 75%;
+    max-width: 900px;
+    padding: 20px 10px 20px 10px;
+}
+.container {
+    text-align: center;
+}
+.info-tab {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+  }
+.type-tab {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    vertical-align: middle;
+}
+.input-field {
+    height: 20px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    border: 1.5px solid #888888;
+    border-radius: 5px;
+}
+.blink {
+    text-decoration: none;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+@keyframes blink {
+    0% {color: rgb(71, 190, 177);}
+    50% {color: rgb(17, 17, 16);}
+    100% {color: rgb(40, 201, 182);}
+}
+.feedBack {
+    float: left;
+    margin-right: 5px;
+}
+.radio, .checkbox {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+    width: 300px;
+  }
+  #submit {
+    background-color: #f8f5f5;
+    border-radius: 4px;
+    color: rgb(124, 139, 158);
+    font-size: 20px;
+    font-weight: bolder;
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    border: 0px solid;
+  }
+  .dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+  }
+/*
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
+*/
