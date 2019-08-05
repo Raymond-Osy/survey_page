@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url(https://fonts.googleapis.com/css?family=Blinker&display=swap);
 body {
     background-color: #f8f5f5;
-    font-family: 'Raleway' Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Blinker', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     min-width: 320px;
     color: white;
@@ -18,7 +18,7 @@ header {
     background-color: rgb(124, 139, 158);
     margin: 0 auto;
     border-radius: 10px;
-    width: 60%;
+    width: 75%;
     max-width: 900px;
     padding: 20px 10px 20px 10px;
 }
