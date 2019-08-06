@@ -1,125 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-      <title>My Survey Page | Welcome</title>
-      <meta charset="UTF-8">
-      <meta name="description" content="Survey form for friends">
-      <meta name="keywords" content="Survey, form, friends">
-      <meta name="author" content="Abigail Nonyelim">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-      <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="style.css">
+        <title>My Survey Page | Welcome</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Survey form for friends">
+        <meta name="keywords" content="Survey, form, friends">
+        <meta name="author" content="Abigail Nonyelim">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+        <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-     <header>
-      <h1 id="title">Hello | &#128578;</hi>
-        <p>Welcome to my short Survey.</p>
-     </header>
-     <div id="form-box">
-      <p id="description">I would like to know you, kindly answer the following truthfully.</p>
-      <form id="survey-form">
+        <header>
+            <h1 id="title">Hello | &#128578;</hi>
+            <p>Welcome to my short Survey.</p>
+        </header>
+        <div id="form-box">
+            <p id="description">I would like to know you, kindly answer the following truthfully.</p>
 
-       <div>   
-       <div class="info-tab">
-       <label for="name" id="name-label" class="labels" style="font-weight: bold;">Full name: </label>
-       </div>
-       <div class="type-tab">
-       <input type="text" Placeholder="e.g Billy Example" id="name" class="input-field" required>
-       </div>
-       </div>
-       
-       <div>
-       <div class="info-tab">
-       <label for="month-year" class="labels" style="font-weight: bold;">Date of Birth: </label>
-       </div>
-       <div class="type-tab">
-       <input type="month" id="month-year" class="input-field" required>
-       </div>
-       </div>
+            <form id="survey-form">
 
-       <div>
-       <div class="info-tab">
-       <label for="number" id="number-label" class="labels" style="font-weight: bold;">Age: </label>
-       </div>
-       <div class="type-tab">
-       <input type="number" id="number" min="13" max="150" maxlength="2" placeholder="xx" class="input-field" required>
-       </div>
-       </div>
+                <div>   
+                    <div class="info-tab">
+                        <label for="name" id="name-label" class="labels" style="font-weight: bold;">Full name: </label>
+                    </div>
+                    <div class="type-tab">
+                        <input type="text" Placeholder="e.g Billy Example" id="name" class="input-field" required>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="info-tab">
+                        <label for="month-year" class="labels" style="font-weight: bold;">Date of Birth: </label>
+                    </div>
+                    <div class="type-tab">
+                        <input type="month" id="month-year" class="input-field" required>
+                    </div>
+                </div>
 
-       <div>
-       <div class="info-tab">
-       <label for="email" id="email-label" class="labels" style="font-weight: bold;">Email: </label>
-       </div>
-       <div class="type-tab">
-       <input type="email" placeholder="e.g billy@example.com" id="email" class="input-field" required>
-       </div>
-       </div>
+                <div>
+                    <div class="info-tab">
+                        <label for="number" id="number-label" class="labels" style="font-weight: bold;">Age: </label>
+                    </div>
+                    <div class="type-tab">
+                        <input type="number" id="number" min="13" max="150" maxlength="2" placeholder="xx" class="input-field" required>
+                    </div>
+                </div>
 
-       <div>
-       <div class="info-tab">
-       <label for="tel" class="labels" style="font-weight: bold;">Phone number:</label>
-       </div>
-       <div class="type-tab">
-       <input type="tel" placeholder="e.g 081-2345-6789" id="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" maxlength="13" class="input-field" required>
-       </div>
-      </div>
+                <div>
+                    <div class="info-tab">
+                        <label for="email" id="email-label" class="labels" style="font-weight: bold;">Email: </label>
+                    </div>
+                    <div class="type-tab">
+                        <input type="email" placeholder="e.g billy@example.com" id="email" class="input-field" required>
+                    </div>
+                </div>
 
-      <div class="addition">
-       <p>Your responses are going no where, fret not. &#128579;.</p><hr>
-       <p>Kindly give honest responses here, you could send a screenshot through this <a href="https://wa.me/2348178727249?text=You%20are%20amazing%20Abbie.%20I'll%20send%20the%20screenshot%20right%20after%20this.%20Kisses!%20LOL" class="blink" target="_blank">blinking text</a>.
-      </div>
-      <div class="container">
-      <div class="info-tab">
-       <label for="relationship" class="labels" style="font-weight: bold;">Which option best descrbes what you are to Abigail?</label>
-      </div>
-      <div class="type-tab">
-       <select id="dropdown" class="dropdown" style="font-size: 15px;">
-        <option disabled value>Select just one</option>
-        <option>Friend</option>
-        <option>Partner</option>
-        <option>Lover</option>
-        <option>Disturbance</option>
-        <option>Tell me when you send screenshot</option>
-       </select>
-      </div>
-      </div>
-      <div>
-      <div class="info-tab">
-       <label for="behaviour" class="labels" style="font-weight: bold;">Would you proudly introduce Abigail to your Family?</label>
-      </div>
-      <div class="type-tab">
-       <ul style="list-style: none;">
-        <li class="radio"><label><input type="radio" name="positive" value="1" class="feedBack">Yes</label></li>
-        <li class="radio"><label><input type="radio" name="negative" value="2" class="feedBack">No</label></li>
-       </ul>
-      </div>
-      </div>
-      <div>
-      <div class="info-tab">
-       <label for="qualities" class="labels" style="font-weight: bold;">Abigail is ...?<br>(You can select more than one)</select></label>
-      </div>
-      <div class="type-tab">
-       <ul style="list-style: none;">
-        <li class="checkbox"><label><input type="checkbox" value="1" class="feedBack">Honest and Loyal</label></li>
-        <li class="checkbox"><label><input type="checkbox" value="2" class="feedBack">Loving and Kind </label></li>
-        <li class="checkbox"><label><input type="checkbox" value="3" class="feedBack">Crazy and Ambitious</label></li>
-        <li class="checkbox"><label><input type="checkbox" value="4" class="feedBack">Secretive and Compassionate</label></li>
-        <li class="checkbox"><label><input type="checkbox" value="5" class="feedBack">Impatient and Aggressive</label></li>
-       </ul>
-      </div>
-      </div>
-      <div>
-      <div class="info-tab">
-       <label for="comments" class="labels" style="font-weight: bold;">How can Abigail become a better person?</label>
-      </div>
-      <div class="type-tab">
-       <textarea id="comments" class="input-field" style="height:70px; min-width: 200px;max-width: 300px; resize:none; position: relative;" placeholder="Enter comments here..." rows="4" cols="50" maxlength="155"></textarea>
-      </div>
-      </div>
-      <div>
-       <button id="submit" type="submit">The End</button>
-      </div>
-      </form>
-     </div>
+                <div>
+                    <div class="info-tab">
+                        <label for="tel" class="labels" style="font-weight: bold;">Phone number:</label>
+                    </div>
+                    <div class="type-tab">
+                        <input type="tel" placeholder="e.g 081-2345-6789" id="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" maxlength="13" class="input-field" required>
+                    </div>
+                </div>
+
+                <div class="addition">
+                    <p>Your responses are going no where, fret not. &#128579;.</p><hr>
+                    <p>Kindly give honest responses here, you could send a screenshot through this <a href="https://wa.me/2348178727249?text=You%20are%20amazing%20Abbie.%20I'll%20send%20the%20screenshot%20right%20after%20this.%20Kisses!%20LOL" class="blink" target="_blank">blinking text</a>.
+                </div>
+                <div class="container">
+                    <div class="info-tab">
+                        <label for="relationship" class="labels" style="font-weight: bold;">Which option best descrbes what you are to Abigail?</label>
+                    </div>
+                    <div class="type-tab">
+                        <select id="dropdown" class="dropdown" style="font-size: 15px;">
+                            <option disabled value>Select just one</option>
+                            <option>Friend</option>
+                            <option>Partner</option>
+                            <option>Lover</option>
+                            <option>Disturbance</option>
+                            <option>Tell me when you send screenshot</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="info-tab">
+                        <label for="behaviour" class="labels" style="font-weight: bold;">Would you proudly introduce Abigail to your Family?</label>
+                    </div>
+                    <div class="type-tab">
+                        <ul style="list-style: none;">
+                            <li class="radio"><label><input type="radio" name="positive" value="1" class="feedBack">Yes</label></li>
+                            <li class="radio"><label><input type="radio" name="negative" value="2" class="feedBack">No</label></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="info-tab">
+                        <label for="qualities" class="labels" style="font-weight: bold;">Abigail is ...?<br>(You can select more than one)</select></label>
+                    </div>
+                    <div class="type-tab">
+                        <ul style="list-style: none;">
+                            <li class="checkbox"><label><input type="checkbox" value="1" class="feedBack">Honest and Loyal</label></li>
+                            <li class="checkbox"><label><input type="checkbox" value="2" class="feedBack">Loving and Kind </label></li>
+                            <li class="checkbox"><label><input type="checkbox" value="3" class="feedBack">Crazy and Ambitious</label></li>
+                            <li class="checkbox"><label><input type="checkbox" value="4" class="feedBack">Secretive and Compassionate</label></li>
+                            <li class="checkbox"><label><input type="checkbox" value="5" class="feedBack">Impatient and Aggressive</label></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="info-tab">
+                        <label for="comments" class="labels" style="font-weight: bold;">How can Abigail become a better person?</label>
+                    </div>
+                    <div class="type-tab">
+                        <textarea id="comments" class="input-field" style="height:70px; min-width: 200px;max-width: 300px; resize:none; position: relative;" placeholder="Enter comments here..." rows="4" cols="50" maxlength="155"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <button id="submit" type="submit">The End</button>
+                </div>
+            </form>
+        </div>
     </body>
 </html>
